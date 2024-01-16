@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "jest",
-    "test:watch": "npx jest --watch",
+    "test": "npx jest",
+    "test:watch": "jest --watch",
     "lint": "npx prettier --check",
     "lint:fix": "npx prettier --write"
   },
