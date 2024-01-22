@@ -1,6 +1,7 @@
-import feedMonkeys from "./feedMonkeys.js";
+import { feedMonkeys } from "./feedMonkeys.js";
+
 describe("Given feedMonkeys", () => {
-  test("when 🍌 is provided as argument Then exècted array should be returned ", () => {
+  test("when 🍌 is provided as argument Then expected array should be returned ", () => {
     const fruit = "🍌";
     const EXPECTED_RESULT = ["🐒 🍌", "🦍 🍌", "🦧 🍌"];
 
@@ -9,7 +10,7 @@ describe("Given feedMonkeys", () => {
     expect(Monkeys).toBeDefined();
     expect(Monkeys).toEqual(EXPECTED_RESULT);
   });
-  test("when 🍎 is provided as argument Then exècted array should be returned ", () => {
+  test("when 🍎 is provided as argument Then expected array should be returned ", () => {
     const fruit = "🍎";
     const EXPECTED_RESULT = ["🐒 🍎", "🦍 🍎", "🦧 🍎"];
 
