@@ -1,13 +1,15 @@
 {
   "name": "09_javascript_array",
   "version": "1.0.0",
+
   "description": "<figure style=\"text-align: center\">    <img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/640px-JavaScript-logo.png\" alt=\"DOM Tree\" width=\"100\" />    <figcaption>JavaScript</figcaption> </figure>",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
-    "lint": "prettier . --check",
-    "lint:fix": "prettier . --write"
+    "lint": "npx prettier  --check",
+    "lint:fix": "npx prettier  --write"
   },
   "keywords": [],
   "author": "",
